@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /api/v1
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/pete
+    username: root
+    password: kambok123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
